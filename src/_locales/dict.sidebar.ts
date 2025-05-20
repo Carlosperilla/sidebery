@@ -13,6 +13,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '搜索...',
     zh_TW: '搜尋...',
     ja: '検索...',
+    es: 'Buscar...',
   },
 
   // ---
@@ -26,6 +27,7 @@ export const sidebarTranslations: Translations = {
     ru: 'Внимание',
     zh: '警告',
     ja: '警告',
+    es: 'Advertencia',
   },
   'confirm.tabs_close_pre': {
     en: 'Are you sure you want to close ',
@@ -36,6 +38,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '您确定要关闭 ',
     zh_TW: '您確定要關閉 ',
     ja: '本当に閉じますか',
+    es: '¿Estás seguro de que quieres cerrar ',
   },
   'confirm.tabs_close_post': {
     en: ' tabs?',
@@ -46,6 +49,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: ' 标签页吗？',
     zh_TW: ' 分頁嗎？',
     ja: 'のタブを閉じますか？',
+    es: ' pestañas?',
   },
   'confirm.bookmarks_delete': {
     en: 'Are you sure you want to delete selected bookmarks?',
@@ -56,6 +60,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '您确定要删除选定的书签吗？',
     zh_TW: '您確定要刪除選定的書籤嗎？',
     ja: '選択したブックマークを削除してもよろしいですか？',
+    es: '¿Estás seguro de que quieres eliminar los marcadores seleccionados?',
   },
 
   // ---
@@ -69,6 +74,7 @@ export const sidebarTranslations: Translations = {
     ru: 'Ничего не найдено',
     zh: '未找到',
     ja: '何も見つかりません',
+    es: 'No se encontró nada',
   },
   'panel.nothing': {
     en: 'Nothing...',
@@ -79,6 +85,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '无...',
     zh_TW: '無...',
     ja: '何も...',
+    es: 'Nada...',
   },
 
   // ---
@@ -93,6 +100,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '显示该站点的历史记录',
     zh_TW: '顯示此網站的歷史紀錄',
     ja: 'このサイトの履歴を表示',
+    es: 'Mostrar historial de este sitio',
   },
   'panel.history.show_more': {
     en: '...hidden visits:',
@@ -103,6 +111,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '...隐藏的访问：',
     zh_TW: '...隱藏的紀錄：',
     ja: '...非表示の訪問:',
+    es: '...visitas ocultas:',
   },
 
   // ---
@@ -117,6 +126,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '打开一个新标签页',
     zh_TW: '開啟一個新分頁',
     ja: '新しいタブを開く',
+    es: 'Abrir una nueva pestaña',
   },
   'newTabBar.in_default_container': {
     en: ' in default container',
@@ -127,6 +137,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: ' 在默认容器中',
     zh_TW: ' 在預設容器中',
     ja: 'デフォルトのコンテナで',
+    es: ' en contenedor por defecto',
   },
   'newTabBar.in_container_prefix': {
     en: ' in "',
@@ -137,6 +148,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: ' 在 "',
     zh_TW: ' 在「',
     ja: '「',
+    es: ' en "',
   },
   'newTabBar.in_container_postfix': {
     en: '" container',
@@ -147,6 +159,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '" 容器中',
     zh_TW: '」容器中',
     ja: '」コンテナ',
+    es: '" contenedor',
   },
   'newTabBar.mid_child': {
     en: 'Middle click: Open a child tab',
@@ -157,6 +170,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '中键单击：打开子标签页',
     zh_TW: '中鍵點選：開啟子分頁',
     ja: '中クリック：子タブを開く',
+    es: 'Clic central: Abrir una pestaña secundaria',
   },
   'newTabBar.mid_reopen': {
     en: 'Middle click: Reopen active tab',
@@ -167,6 +181,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '中键点击：重新打开活动标签页',
     zh_TW: '中鍵點選：重新開啟當前分頁',
     ja: '中クリック：アクティブタブを再度開く',
+    es: 'Clic central: Volver a abrir la pestaña activa',
   },
 
   // ---
@@ -181,6 +196,7 @@ export const sidebarTranslations: Translations = {
     ru: 'Удаление панели',
     zh: '移除面板',
     ja: 'パネルの削除',
+    es: 'Quitar panel',
   },
   'popup.tabs_panel_removing.attach': {
     en: 'Attach tabs to neighbour panel',
@@ -191,6 +207,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '将标签页附加到相邻面板',
     zh_TW: '將分頁附加到相鄰面板',
     ja: 'タブを隣接するパネルにアタッチする',
+    es: 'Fijar pestañas al panel lateral',
   },
   'popup.tabs_panel_removing.leave': {
     en: 'Leave tabs untouched',
@@ -201,6 +218,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '保持标签页不变',
     zh_TW: '保持分頁不變',
     ja: 'タブをそのままにする',
+    es: 'Dejar pestañas sin tocar',
   },
   'popup.tabs_panel_removing.save': {
     en: 'Save panel to bookmarks and close tabs',
@@ -211,6 +229,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '将面板保存到书签并关闭标签页',
     zh_TW: '將面板儲存到書籤並關閉分頁',
     ja: 'パネルをブックマークに保存してタブを閉じる',
+    es: 'Guardar panel en marcadores y cerrar pestañas',
   },
   'popup.tabs_panel_removing.close': {
     en: 'Close tabs',
@@ -221,6 +240,7 @@ export const sidebarTranslations: Translations = {
     zh_CN: '关闭标签页',
     zh_TW: '關閉分頁',
     ja: 'タブを閉じる',
+    es: 'Cerrar pestañas',
   },
   'popup.tabs_panel_removing.other_win_note': {
     en: 'Note: Tabs of this panel in other windows will be moved to the neighbour panel',
@@ -230,7 +250,7 @@ export const sidebarTranslations: Translations = {
     ru: 'Вкладки этой панели в других окнах будут перемещены на соседнюю панель',
     zh_CN: '注意：此面板在其他窗口中的标签页将移动到相邻面板或左侧',
     zh_TW: '注意：其他視窗中屬於此面板的分頁將附加到相鄰面板',
-    ja: '注意：他のウィンドウのこのパネルのタブは隣接するパネルに移動されます',
+    ja: '注意：他のウィンドウのこのパネルのタブは隣接するパネルに移動されます',    
   },
   // - What to do with old unused bookmarks on saving tabs panel
   'popup.wtdwOldBookmarks.title': {
